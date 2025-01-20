@@ -1,0 +1,132 @@
+2025-01-17 16:09:21 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controller' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controller' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:313
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:282
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:156
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+2025-01-17 16:10:18 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controlle' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controlle' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:313
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:282
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:156
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+2025-01-17 16:10:25 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controller' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controller' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:313
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:282
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:156
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+2025-01-18 17:34:23 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controller' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 158
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hirehub.controller' doesn't exist in C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:313
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Driver.php:282
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Connection.php:251
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:156
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\ORM\Table.php:544
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:116
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\ModelCommand.php:99
+- C:\laragon\www\hirehub\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\BaseCommand.php:192
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:327
+- C:\laragon\www\hirehub\vendor\cakephp\cakephp\src\Console\CommandRunner.php:168
+- C:\laragon\www\hirehub\bin\cake.php:10
+- [main]:
+
